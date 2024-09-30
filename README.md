@@ -1,6 +1,5 @@
 # Praktikum PBP D2 ke-3
 
-Buatlah form seperti gambar berikut:
 
 ![tugas](.assets/rip_05.jpg)
 
