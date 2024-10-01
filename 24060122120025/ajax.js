@@ -94,7 +94,7 @@ function showCustomer(customerid) {
 
 function searchBooks(keywords) {
     var inner = 'detail_books';
-    var url = 'get_book.php?keywords=' + encodeURIComponent(keywords);
+    var url = 'get_books.php?keywords=' + encodeURIComponent(keywords);
     if (keywords == "") {
         document.getElementById(inner).innerHTML = '<table class="table table-striped"><tr><td colspan="6" align="center">Your search did not return any result.</td></tr></table>';
     } else {

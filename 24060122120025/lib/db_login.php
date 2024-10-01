@@ -4,6 +4,7 @@
 // $db_database = 'bookorama';
 // $db_username = 'root';
 // $db_password = '';
+
 $db_host = 'pbp.shariyl.cloud:3306';
 $db_database = 'bookorama_shared';
 $db_username = 'praktikum_03';
