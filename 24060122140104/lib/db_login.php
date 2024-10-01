@@ -1,9 +1,9 @@
 <?php 
 // TODO 1: Buatlah koneksi dengan database
 $db_host = 'localhost:3306';
-$db_database = 'bookorama';
-$db_username = 'root';
-$db_password = '';
+$db_database = 'bookorama_shared';
+$db_username = 'praktikum_03';
+$db_password = 'password apaaan ini';
 
 $db = new mysqli($db_host, $db_username, $db_password, $db_database);
 if ($db->connect_errno) {
