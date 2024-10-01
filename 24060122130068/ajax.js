@@ -114,7 +114,8 @@ function searchBooks(keywords) {
     }
 }
     
-var input = document.getElementById("search").value;
+
+var input = document.getElementById("search");
 
 input.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
