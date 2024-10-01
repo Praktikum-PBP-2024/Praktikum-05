@@ -1,9 +1,9 @@
 <?php
 require_once('./lib/db_login.php');
 
-if (isset($_GET['keywords'])) {
-    $keywords = $db->real_escape_string($_GET['keywords']);
-    $query = "SELECT * FROM books WHERE title LIKE '%$keywords%'";
+if (isset($_GET['search'])) {
+    $search = $db->real_escape_string($_GET['search']);
+    $query = "SELECT * FROM books WHERE title LIKE '%$search%'";
     $result = $db->query($query);
 
     if ($result->num_rows > 0) {

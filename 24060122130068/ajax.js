@@ -104,16 +104,15 @@ function showCustomer(customerid) {
     }
 }
 
-function searchBooks(keywords) {
+function searchBooks(search) {
     var inner = 'show_books';
-    var url = 'get_books.php?keywords=' + encodeURIComponent(keywords);
-    if (keywords == "") {
+    var url = 'get_books.php?search=' + encodeURIComponent(search);
+    if (search == "") {
         document.getElementById(inner).innerHTML = '<table class="table table-striped"><tr><td colspan="6" align="center">Your search did not return any result.</td></tr></table>';
     } else {
         callAjax(url, inner);
     }
 }
-    
 
 var input = document.getElementById("search");
 
@@ -123,3 +122,4 @@ input.addEventListener("keypress", function(event) {
         searchBooks(input.value);
     }
 });
+
