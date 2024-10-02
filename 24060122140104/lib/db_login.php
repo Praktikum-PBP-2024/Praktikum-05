@@ -1,6 +1,6 @@
 <?php 
 // TODO 1: Buatlah koneksi dengan database
-$db_host = 'localhost:3306';
+$db_host = 'pbp.shariyl.cloud:3306';
 $db_database = 'bookorama_shared';
 $db_username = 'praktikum_03';
 $db_password = 'password apaaan ini';
