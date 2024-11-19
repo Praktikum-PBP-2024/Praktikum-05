@@ -1,1 +1,0 @@
-Silahkan mengerjakan, hapus file ini juga boleh
